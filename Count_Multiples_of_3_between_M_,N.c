@@ -6,7 +6,9 @@ int main()
     for(i=m;i<=n;i++)
     {
         if(i%3==0)
-        c++;
+        {
+          c++;
+        }
     }
     printf("%i",c);
 }
